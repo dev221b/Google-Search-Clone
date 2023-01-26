@@ -6,20 +6,21 @@
     <title>Google</title>
     <script src="https://kit.fontawesome.com/ac3e5cc153.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
 </head>
 <body>
     <header>
         <nav class="navbar">
             <ul>
                 <li>
-                    <a class="link" href="">Gmail</a>
+                    <a class="link" href="https://mail.google.com/">Gmail</a>
                 </li>
                 <li>
-                    <a class="link" href="">Images</a>
+                    <a class="link" href="https://www.google.co.in/imghp?hl=en&authuser=0&ogbl">Images</a>
                 </li>
                 <li>
                     <div class="circle-shadow">
-                        <a class="menu-icon" href=""><i class="fa-solid fa-bars"></i></a>
+                        <a class="menu-icon" href=""><img src="images/menu.png" alt="Menu-icon" width="27px"></a>
                     </div>
                 </li>
                 <li>
@@ -36,13 +37,13 @@
         <div class="content-wrapper">
             <img class="logo" src="./images/logo.png" alt="Google Logo">
             <div class="search-bar">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input class="search-input" type="text">
+                <i class="fa-solid fa-magnifying-glass" onclick="search()"></i>
+                <input id="search-input" class="search-input" type="text">
                 <i class="fa-solid fa-microphone"></i>
             </div>
             <div class="search-btns">
-                <button class="google-search-btn">Google Search</button>
-                <button class="lucky-search-btn">I'm Feeling Lucky</button>
+                <button class="google-search-btn" onclick="search()">Google Search</button>
+                <button class="lucky-search-btn" onclick="lucky()">I'm Feeling Lucky</button>
             </div>
             <div class="language">
                 <p>Google Offered in: <a href="">English</a></p>
@@ -57,10 +58,10 @@
         </div>
         <div class="footer-content lower-footer">
             <ul class="lower-left-footer">
-                <li><a href="">About</a></li>
-                <li><a href="">Advertising</a></li>
-                <li><a href="">Business</a></li>
-                <li><a href="">How Search works?</a></li>
+                <li><a href="https://about.google/?utm_source=google-IN&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a></li>
+                <li><a href="https://ads.google.com/intl/en_in/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+                <li><a href="https://www.google.com/intl/en_in/business/">Business</a></li>
+                <li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search works?</a></li>
             </ul>
             <ul class="lower-right-footer">
                 <li><a href="">Privacy</a></li>

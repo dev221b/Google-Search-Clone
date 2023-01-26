@@ -79,13 +79,14 @@ body{
     padding-bottom: 100px;
 }
 .logo-img{
-    width: 300px;
+    width: 270px;
     margin-bottom: 20px;
 }
 .search-bar {
     border: 1px solid lightgray;
     width: 600px;
     height: 45px;
+    margin-top: 25px;
     border-radius: 30px;
     display: flex;
     align-items: center;
